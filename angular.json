@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "Article-with-comments": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Article-with-comments"
+    }
+  },
+  "defaultProject": "Article-with-comments",
+  "cli": {
+    "analytics": "ece522a4-800b-4b93-992d-76ac45fa1d04"
+  }
 }

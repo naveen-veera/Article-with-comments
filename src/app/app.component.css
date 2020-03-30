@@ -1,0 +1,57 @@
+.container{
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 25%;
+}
+img{
+    text-align: center;
+    width: 70%; 
+}
+.head-comments{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 25px;
+    width: 70%;
+    background: orangered;
+}
+.head-comments >span{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.comment-container{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 45%;
+    float: left;
+
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.comment-container >form{
+    margin-left: 15px;
+}
+.comment-container >form >textarea{
+    width: 90%;
+    line-height: 2;
+}
+button{
+    width: 50%;
+    height: 40px;
+    background: orangered;
+    border: 1px solid black;
+    border-radius: 10px;
+    color : white;
+}
+.comments{
+    margin-right: 30%;
+    text-decoration: ;
+}
+.comments > ul{
+    list-style-type: none;
+}
+
+footer{
+    margin-top: 30%;
+}
